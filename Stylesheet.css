@@ -1,0 +1,116 @@
+html{
+    margin: 0px;
+    background-color: lavender;
+    height: 150%;
+    font-family: Lato, sans-serif;
+}
+
+nav{
+    background-color: lightcoral;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.Nav{
+    padding-top: 18px;
+}
+
+.MenuButton{
+    font-size: 24pt;
+    background-color: white;
+    padding: 6px;
+    max-width: 8%;
+    cursor: pointer;
+    margin-left: 10px;
+    alignment: center;
+}
+
+.NavMenu{
+    display: none;
+    background-color: peachpuff;
+    cursor: pointer;
+    position:relative;
+}
+
+.NavBox{
+    border-width: 1px;
+    border-color: lightpink;
+    position: absolute;
+}
+
+nav a:target{
+    color: greenyellow;
+}
+
+h1{
+    font: 26pt;
+    justify-content: center;
+    color: black;
+
+}
+
+a{
+    margin: 5px;
+    color: seagreen;
+    text-decoration: none;
+}
+
+.Splash{
+    width: 100%;
+    background-image: url("Splash.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 10px;
+    margin-left: 0px;
+    height: 325px;
+    font-size: 24pt;
+    color: white;
+    justify-content: center;
+}
+
+.Container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.Container1{
+    width: 40%;
+    background-color: peachpuff;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.Box1{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.Box2{
+    display: flex;
+    flex-flow: wrap;
+    font-size: 16pt;
+}
+
+p{
+    padding: 4px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Image{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
